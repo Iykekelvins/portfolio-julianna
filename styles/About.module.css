@@ -129,6 +129,9 @@
 }
 
 @media screen and (max-width: 640px) {
+  .icon_container {
+    gap: 1rem;
+  }
   .break {
     display: none;
   }

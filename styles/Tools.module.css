@@ -40,9 +40,9 @@
   .tools {
     display: flex;
     flex-wrap: wrap;
-    gap: 45px;
+    gap: 1rem;
   }
   .tool {
-    gap: 20px;
+    gap: 0.9rem;
   }
 }
