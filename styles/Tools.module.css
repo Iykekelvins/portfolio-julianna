@@ -23,7 +23,7 @@
   border-radius: 50px;
   width: fit-content;
   transition: all 0.3s linear;
-  padding: 20px;
+  margin: 20px;
 }
 
 @media screen and (max-width: 1152px) {
