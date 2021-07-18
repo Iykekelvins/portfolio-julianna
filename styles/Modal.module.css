@@ -1,0 +1,51 @@
+.modal {
+  font-family: "Space Grotesk", sans-serif;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: 2rem 1rem;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav button {
+  border-radius: unset;
+  background: none;
+  padding-right: 0;
+  right: -20px;
+  position: absolute;
+}
+
+.links {
+  display: grid;
+  place-content: center;
+  gap: 30px;
+  padding-top: 4rem;
+}
+
+.links li {
+  list-style: none;
+  color: rgba(171, 171, 171, 1);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-size: 2rem;
+}
+
+.links li:hover {
+  color: black;
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+.links li:active {
+  color: black;
+}
