@@ -1,6 +1,5 @@
 import arrow from "../public/assets/Vector.png";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import { publications } from "../public/data";
 import styles from "../styles/Publications.module.css";
@@ -21,6 +20,7 @@ const Publications = () => {
             <article key={id}>
               <div className={styles.img_container}>
                 <Image
+                  alt=""
                   src={img}
                   layout="responsive"
                   height={400}
@@ -33,9 +33,14 @@ const Publications = () => {
                 <p> {content} </p>
               </div>
 
-              <a href="#" className={styles.arrow}>
+              <a
+                href="#"
+                className={styles.arrow}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className={styles.icon}>
-                  <Image src={arrow} height={15.56} width={16} />
+                  <Image src={arrow} height={15.56} width={16} alt="" />
                 </div>
               </a>
             </article>

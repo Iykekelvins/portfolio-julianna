@@ -62,8 +62,8 @@ export const works = [
       background: "rgba(240, 71, 112, 1)",
       color: "white",
     },
-    img1: <Image src={welcome_screen} height={526} width={246} />,
-    img2: <Image src={splash_screen} height={509} width={242} />,
+    img1: <Image src={welcome_screen} height={526} width={246} alt="" />,
+    img2: <Image src={splash_screen} height={509} width={242} alt="" />,
     img1_styles: {
       transform: "scaleX(2.5)",
       position: "absolute",
@@ -95,8 +95,8 @@ export const works = [
       background: "rgba(3, 182, 107, 1)",
       color: "white",
     },
-    img1: <Image src={component} height={186} width={318} />,
-    img2: <Image src={homepage} height={550} width={450} />,
+    img1: <Image src={component} height={186} width={318} alt="" />,
+    img2: <Image src={homepage} height={550} width={450} alt="" />,
     img1_styles: {
       position: "absolute",
       top: "0",

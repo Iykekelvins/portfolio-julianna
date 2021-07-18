@@ -24,6 +24,7 @@ const Tools = () => {
           return (
             <div key={id} className={styles.tool}>
               <Image
+                alt=""
                 src={icon}
                 height={icon_styles.height}
                 width={icon_styles.width}

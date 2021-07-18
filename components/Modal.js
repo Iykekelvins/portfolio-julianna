@@ -8,27 +8,37 @@ const Modal = ({ modal, setModal }) => {
   return (
     <div className={styles.modal}>
       <nav className={styles.nav}>
-        <Image src={black_logo} height={45} width={120} />
+        <Image src={black_logo} height={45} width={120} alt="" />
         <button onClick={() => setModal(!modal)}>
-          <Image src={close} height={45} width={45} />
+          <Image src={close} height={45} width={45} alt="" />
         </button>
       </nav>
 
       <ul className={styles.links}>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/" alt="">
+            Home
+          </Link>
         </li>
         <li>
-          <Link href="/">About Me</Link>
+          <Link href="/" alt="">
+            About Me
+          </Link>
         </li>
         <li>
-          <Link href="/">My Works</Link>
+          <Link href="/" alt="">
+            My Works
+          </Link>
         </li>
         <li>
-          <Link href="/">My Resume</Link>
+          <Link href="/" alt="">
+            My Resume
+          </Link>
         </li>
         <li>
-          <Link href="/">Contact Me</Link>
+          <Link href="/" alt="">
+            Contact Me
+          </Link>
         </li>
       </ul>
     </div>

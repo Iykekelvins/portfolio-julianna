@@ -19,7 +19,7 @@ const Services = () => {
           return (
             <article key={id}>
               <div className={styles.icon}>
-                <Image src={icon} height={71} width={62} />
+                <Image src={icon} height={71} width={62} alt="" />
               </div>
               <h4>{title}</h4>
               <p>{info} </p>
