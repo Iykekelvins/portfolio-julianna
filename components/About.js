@@ -16,9 +16,10 @@ const About = () => {
         <p className="intro_p">
           I specialize in designing and developing user interfaces and digital
           products.
-          <br /> I don't restrict myself to design. The blend of design, user
-          experience,
-          <br /> marketing, and business is where I feel I excel
+          <br className={styles.break} /> I don't restrict myself to design. The
+          blend of design, user experience,
+          <br className={styles.break} /> marketing, and business is where I
+          feel I excel
         </p>
         <div className={styles.icon_container}>
           <a href="https://www.twitter.com" target="_blank" rel="noreferrer">

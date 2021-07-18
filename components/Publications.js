@@ -10,7 +10,7 @@ const Publications = () => {
       <h2>My Publications</h2>
       <p>
         Through writing, I come to understand my internal psychologies more{" "}
-        <br />
+        <br className={styles.break} />
         intimately than through any other form of semantic exploration.
       </p>
       <div className={styles.publications}>
