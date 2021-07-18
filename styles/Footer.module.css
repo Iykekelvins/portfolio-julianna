@@ -13,6 +13,9 @@
 @media screen and (max-width: 640px) {
   .footer {
     flex-direction: column;
-    gap: 20px;
+    gap: 45px;
+  }
+  .icon_container {
+    gap: 45px;
   }
 }

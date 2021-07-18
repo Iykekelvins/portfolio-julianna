@@ -77,7 +77,7 @@
 .icon_container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 45px;
   position: absolute;
   right: -7rem;
   bottom: 0;
@@ -121,7 +121,7 @@
   }
   .icon_container {
     position: unset;
-    flex-direction: revert;
+    flex-direction: row;
     justify-content: center;
     margin-top: -1rem;
     margin-bottom: 3rem;
@@ -129,6 +129,9 @@
 }
 
 @media screen and (max-width: 640px) {
+  .break {
+    display: none;
+  }
   .intro h1 {
     font-size: 4rem;
   }
