@@ -16,7 +16,7 @@
     justify-content: space-evenly;
   }
   .icon_container {
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 1rem;
   }
 }
