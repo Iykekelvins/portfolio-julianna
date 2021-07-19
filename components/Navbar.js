@@ -5,7 +5,7 @@ import styles from "../styles/Navbar.module.css";
 
 const Navbar = ({ modal, setModal }) => {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.nav} id="home">
       <div className={styles.logo}>
         <Image src={logo} height={45} width={120} alt="" />
       </div>

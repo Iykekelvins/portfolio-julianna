@@ -32,13 +32,13 @@ export const services = [
     info: "Through the use of a suitable user  research  method, I strive to understand how users go about performing tasks and achieving goals",
   },
   {
-    id: 1,
+    id: 2,
     icon: design_strategy,
     title: "Design Strategy",
     info: "I iteratively seek to redefine problems in an  attempt to identify better alternative strategies and solutions that might not be  instantly apparent.",
   },
   {
-    id: 1,
+    id: 3,
     icon: wireframing,
     title: "Wireframing & Prototyping",
     info: "I ensure useful and usable user interfaces that work across multiple devices is an important part of the work we do on today's work",
@@ -184,5 +184,33 @@ export const publications = [
     title: "UI, UX:What's the difference?",
     content:
       "The line between UX and UI is a pretty thin one; it is indeed so thin that it is arguably one of the most discussed issues in recent times. Although there is a plethora of information on the internet seeking to shed more light on the UX and UI and corresponding job descriptions and requirements of these fields, the boundary between UI and",
+  },
+];
+
+export const links = [
+  {
+    id: 1,
+    title: "Home",
+    link: "home",
+  },
+  {
+    id: 2,
+    title: "About Me",
+    link: "about",
+  },
+  {
+    id: 3,
+    title: "My Works",
+    link: "works",
+  },
+  {
+    id: 4,
+    title: "My Resume",
+    link: "resume",
+  },
+  {
+    id: 5,
+    title: "Contact Me",
+    link: "contact",
   },
 ];

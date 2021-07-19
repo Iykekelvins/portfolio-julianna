@@ -1,10 +1,13 @@
+import { links } from "../public/data";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import black_logo from "../public/assets/black_logo.png";
 import close from "../public/assets/close.png";
 import styles from "../styles/Modal.module.css";
+import { useState } from "react";
 
 const Modal = ({ modal, setModal }) => {
+  const [navLinks, setNavLinks] = useState(links);
   return (
     <div className={styles.modal}>
       <nav className={styles.nav}>
@@ -15,31 +18,16 @@ const Modal = ({ modal, setModal }) => {
       </nav>
 
       <ul className={styles.links}>
-        <li>
-          <Link href="/" alt="">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link href="/" alt="">
-            About Me
-          </Link>
-        </li>
-        <li>
-          <Link href="/" alt="">
-            My Works
-          </Link>
-        </li>
-        <li>
-          <Link href="/" alt="">
-            My Resume
-          </Link>
-        </li>
-        <li>
-          <Link href="/" alt="">
-            Contact Me
-          </Link>
-        </li>
+        {navLinks.map((links) => {
+          const { id, title, link } = links;
+          return (
+            <li key={id}>
+              <Link smooth={true} to={link}>
+                <span onClick={() => setModal(!modal)}>{title}</span>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

@@ -6,7 +6,7 @@ import { services } from "../public/data";
 const Services = () => {
   const [service, setService] = useState(services);
   return (
-    <section className={styles.services_container}>
+    <section className={styles.services_container} id="resume">
       <h2>What I do in a Nutshell</h2>
       <p className="intro_p">
         "Perfection is achieved, not when there is nothing more to add, but when

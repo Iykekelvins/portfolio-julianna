@@ -8,7 +8,7 @@ import twitter from "../public/assets/twitter.png";
 const About = () => {
   return (
     <section className={styles.about}>
-      <div className={styles.intro}>
+      <div className={styles.intro} id="about">
         <h4>Hello, I'm</h4>
         <h1>
           <span>Juli</span>anna
@@ -38,7 +38,7 @@ const About = () => {
             <Image src={facebook} height={36} width={36} alt="" />
           </a>
         </div>
-        <div className={styles.btn_container}>
+        <div className={styles.btn_container} id="contact">
           <button className={styles.hire_btn}>
             <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
               Hire Me

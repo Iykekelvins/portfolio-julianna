@@ -27,7 +27,7 @@ const Works = () => {
             article_styles,
           } = item;
           return (
-            <article key={id}>
+            <article key={id} id="works">
               <div className={styles.info_div}>
                 <span style={app_styles}>{app}</span>
                 <h3>{title}</h3>
